@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(113, 100%, 50%);
+    animation: onngaBor 2s infinite linear;
+}
+ @keyframes onngaBor{
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    25%{
+        transform: translateX(200px) translateY(0px);
+    }
+    50%{
+        transform: translateX(200px) translateY(200px);
+    }
+    75%{
+        transform: translateX(0px) translateY(200px);
+    }
+    100%{
+        transform: translateX(0px) translateY(0px);
+    }
+    150%{
+        transform: translateX(0px) translateY(500px);
+    }
+} 

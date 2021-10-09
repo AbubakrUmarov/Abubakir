@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 230, 140, 0.842);
+}
+
+.container{
+    width: 70%;
+    height: 80vh;
+    background-color: #51ff0042;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1.7fr;
+}
+
+.navigation{
+    background-color: #ffff008c;
+    border-radius: 10px;
+    margin: 10px;
+
+}   
+
+.section{
+    background-color: #4ccd32be;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.sidebar{
+    background-color: #780ec3be;
+    display: grid;
+    grid-template-rows: 0.5fr 1.5fr;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.main{
+    background-color: #30b4adc6;
+    border-radius: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 1.3fr;
+}
+
+.opper_sidebar{
+    background-color: rgba(0, 47, 255, 0.832);
+    margin: 10px;
+    border-radius: 10px;
+}   
+
+.bottom_sidebar{
+    background-color: moccasin;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.main_banner{
+    background-color: #ff6347ef;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.main_article{
+    background-color: #00312c;
+    border-radius: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.product{
+    background-color: rgb(135, 207, 235);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.collection{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+
+.collection_item{
+    margin: 0px 70px ;
+    color: #4d4b4b;
+}
+
+.navigation h1 {
+    color: #444141;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sidebar p {
+    color: #242222;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.bottom_sidebar > img {
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}

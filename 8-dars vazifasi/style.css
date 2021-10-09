@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e2d98a;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 30%;
+    animation: aylanjon 2s linear 0s infinite;
+}
+
+.wrapper{
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    border-radius: 30%;
+    margin-top: -60px;
+    margin-left: 10px;
+    animation: aylanjon 2s linear 0s infinite;
+}
+
+.container{
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    border-radius: 30%;
+    margin-top: 100px;
+    margin-left: -70px;
+    animation: aylanjon 2s linear 0s infinite;
+}
+
+@keyframes aylanjon{
+    from{
+        transform: rotate(0);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
